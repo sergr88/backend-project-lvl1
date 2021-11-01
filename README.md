@@ -2,3 +2,6 @@
 [![Actions Status](https://github.com/sergr88/backend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/sergr88/backend-project-lvl1/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
 [![Linting CI](https://github.com/sergr88/backend-project-lvl1/actions/workflows/lint.yml/badge.svg)](https://github.com/sergr88/backend-project-lvl1/actions/workflows/lint.yml)
+
+asciinema of game 'Even':
+[![asciicast](https://asciinema.org/a/mj8ROHNFElfMfriTSZzT8bRr7.svg)](https://asciinema.org/a/mj8ROHNFElfMfriTSZzT8bRr7)
