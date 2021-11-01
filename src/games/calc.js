@@ -1,8 +1,8 @@
+import { getRandom } from '../utilities.js';
+
 const name = 'calc';
 
 const hint = 'What is the result of the expression?';
-
-const getRandom = (max) => Math.floor(Math.random() * max) + 1;
 
 const operations = [
   ['+', (a, b) => a + b],
