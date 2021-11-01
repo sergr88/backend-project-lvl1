@@ -5,3 +5,6 @@
 
 asciinema of game 'Even':
 [![asciicast](https://asciinema.org/a/mj8ROHNFElfMfriTSZzT8bRr7.svg)](https://asciinema.org/a/mj8ROHNFElfMfriTSZzT8bRr7)
+
+asciinema of game 'Calc':
+[![asciicast](https://asciinema.org/a/r2e3qErIuQ2GuQhQr97gFNsbz.svg)](https://asciinema.org/a/r2e3qErIuQ2GuQhQr97gFNsbz)

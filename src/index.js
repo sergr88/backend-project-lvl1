@@ -1,8 +1,9 @@
 import readlineSync from 'readline-sync';
 
 import even from './games/even.js';
+import calc from './games/calc.js';
 
-const games = [even];
+const games = [even, calc];
 
 const gameCount = 3;
 
