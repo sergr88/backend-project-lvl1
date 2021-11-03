@@ -12,9 +12,9 @@ const operations = [
 
 const maxNumber = 25;
 const getTask = () => {
-  const firstOperand = getRandom(maxNumber);
-  const secondOperand = getRandom(maxNumber);
-  const operation = operations[getRandom(operations.length) - 1];
+  const firstOperand = getRandom(1, maxNumber);
+  const secondOperand = getRandom(1, maxNumber);
+  const operation = operations[getRandom(0, operations.length - 1)];
 
   const [operationSign, operationFunction] = operation;
   const question = `${firstOperand} ${operationSign} ${secondOperand}`;

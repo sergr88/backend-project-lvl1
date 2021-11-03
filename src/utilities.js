@@ -1,4 +1,4 @@
-const getRandom = (max) => Math.floor(Math.random() * max) + 1;
+const getRandom = (min, max) => min + Math.floor(Math.random() * (max - min + 1));
 
 // eslint-disable-next-line import/prefer-default-export
 export { getRandom };

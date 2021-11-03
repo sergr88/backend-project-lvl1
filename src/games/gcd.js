@@ -13,8 +13,8 @@ const getTask = () => {
   let secondNumber;
   let gcd;
   do {
-    firstNumber = getRandom(maxNumber);
-    secondNumber = getRandom(maxNumber);
+    firstNumber = getRandom(1, maxNumber);
+    secondNumber = getRandom(1, maxNumber);
     gcd = getGcd(firstNumber, secondNumber);
   } while (gcd < 2);
 
