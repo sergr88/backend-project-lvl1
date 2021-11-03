@@ -11,3 +11,6 @@ asciinema of game 'Calc':
 
 asciinema of game 'Gcd':
 [![asciicast](https://asciinema.org/a/NjSKMqmvpC4jRtjOACTDQBbXV.svg)](https://asciinema.org/a/NjSKMqmvpC4jRtjOACTDQBbXV)
+
+asciinema of game 'Progression':
+[![asciicast](https://asciinema.org/a/lvzrnUP9qvgROf5snUIsg8G67.svg)](https://asciinema.org/a/lvzrnUP9qvgROf5snUIsg8G67)
