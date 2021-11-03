@@ -8,3 +8,6 @@ asciinema of game 'Even':
 
 asciinema of game 'Calc':
 [![asciicast](https://asciinema.org/a/r2e3qErIuQ2GuQhQr97gFNsbz.svg)](https://asciinema.org/a/r2e3qErIuQ2GuQhQr97gFNsbz)
+
+asciinema of game 'Gcd':
+[![asciicast](https://asciinema.org/a/NjSKMqmvpC4jRtjOACTDQBbXV.svg)](https://asciinema.org/a/NjSKMqmvpC4jRtjOACTDQBbXV)
