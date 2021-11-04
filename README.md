@@ -14,3 +14,6 @@ asciinema of game 'Gcd':
 
 asciinema of game 'Progression':
 [![asciicast](https://asciinema.org/a/lvzrnUP9qvgROf5snUIsg8G67.svg)](https://asciinema.org/a/lvzrnUP9qvgROf5snUIsg8G67)
+
+asciinema of game 'Prime':
+[![asciicast](https://asciinema.org/a/JcR6NNNdVJNBCGVeuz5ZZ5WHw.svg)](https://asciinema.org/a/JcR6NNNdVJNBCGVeuz5ZZ5WHw)
