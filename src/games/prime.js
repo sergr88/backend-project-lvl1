@@ -1,6 +1,4 @@
-import { getRandom } from '../utilities.js';
-
-const name = 'prime';
+import { getRandom, play } from '../engine.js';
 
 const hint = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
@@ -19,4 +17,4 @@ const getTask = () => {
   return [question, answer];
 };
 
-export default { name, hint, getTask };
+play(hint, getTask);

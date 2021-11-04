@@ -1,14 +1,14 @@
-import { getRandom } from '../utilities.js';
-
-const name = 'even';
+import { getRandom, play } from '../engine.js';
 
 const hint = 'Answer "yes" if the number is even, otherwise answer "no".';
+
+const isEven = (num) => num % 2 === 0;
 
 const maxNumber = 100;
 const getTask = () => {
   const question = getRandom(1, maxNumber);
-  const answer = (question % 2 === 0) ? 'yes' : 'no';
+  const answer = isEven(question) ? 'yes' : 'no';
   return [question, answer];
 };
 
-export default { name, hint, getTask };
+play(hint, getTask);

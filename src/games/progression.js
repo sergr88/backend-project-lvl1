@@ -1,6 +1,4 @@
-import { getRandom } from '../utilities.js';
-
-const name = 'progression';
+import { getRandom, play } from '../engine.js';
 
 const hint = 'What number is missing in the progression?';
 
@@ -26,4 +24,4 @@ const getTask = () => {
   return [question, answer];
 };
 
-export default { name, hint, getTask };
+play(hint, getTask);

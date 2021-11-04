@@ -1,6 +1,4 @@
-import { getRandom } from '../utilities.js';
-
-const name = 'calc';
+import { getRandom, play } from '../engine.js';
 
 const hint = 'What is the result of the expression?';
 
@@ -14,7 +12,8 @@ const maxNumber = 25;
 const getTask = () => {
   const firstOperand = getRandom(1, maxNumber);
   const secondOperand = getRandom(1, maxNumber);
-  const operation = operations[getRandom(0, operations.length - 1)];
+  const operationIndex = getRandom(0, operations.length - 1);
+  const operation = operations[operationIndex];
 
   const [operationSign, operationFunction] = operation;
   const question = `${firstOperand} ${operationSign} ${secondOperand}`;
@@ -23,4 +22,4 @@ const getTask = () => {
   return [question, answer];
 };
 
-export default { name, hint, getTask };
+play(hint, getTask);

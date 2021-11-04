@@ -1,6 +1,4 @@
-import { getRandom } from '../utilities.js';
-
-const name = 'gcd';
+import { getRandom, play } from '../engine.js';
 
 const hint = 'Find the greatest common divisor of given numbers.';
 
@@ -23,4 +21,4 @@ const getTask = () => {
   return [question, answer];
 };
 
-export default { name, hint, getTask };
+play(hint, getTask);
